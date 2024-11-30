@@ -1,0 +1,60 @@
+/* project.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.stopwatch-container {
+    text-align: center;
+    background: #2682537d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.display {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: rgb(14, 13, 13);
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    padding: 5px;
+    background-color: #45a049;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+.stopwatch-container h1{
+    font-style: italic;
+    text-align: center;
+
+}
